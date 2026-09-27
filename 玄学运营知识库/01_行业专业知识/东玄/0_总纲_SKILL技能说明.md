@@ -1,0 +1,339 @@
+---
+name: metaphysics-classics-guide
+description: 中国传统术数经典学习、整理与分析技能。用于梳理、归类、对比、总结、规划《周易》《皇极经世》《黄帝阴符经》《渊海子平》《三命通会》《子平真诠》《滴天髓》《葬书》《地理人子须知》《青囊奥语》《撼龙经》《梅花易数》《增删卜易》《万法归宗》《辰州符咒大全》《祝由十三科》《星学大成》《五行大义》等典籍的体系、术语、流派关系、阅读路径，以及基于传统术数框架进行命理分析、占卜解读、风水思路整理、走势推演与多流派对照分析。也适用于用户明确提出“算八字”“看八字”“批八字”“排八字”“四柱”“命盘”“算命”“排盘”等场景，输出结构化八字/四柱分析草稿。适合做书单规划、术语解释、知识图谱、玄学分析草稿、公开科普与研究笔记。不把超自然说法当作事实，不提供确定性命运/医疗/法律/投资保证。
+---
+
+# 术数经典导读技能
+
+把传统术数典籍当作**文献体系、思想脉络、术语结构和流派演化**来整理，而不是当作“保证应验”的输出工具。
+
+## 核心定位
+
+默认把这类材料理解为：
+- 思想史材料
+- 术语与符号系统
+- 流派演化线索
+- 象数模型与解释框架
+- 民俗、宗教、文化研究对象
+
+默认输出应优先强调：
+- 书和书之间的关系
+- 哪些是基础、哪些是扩展
+- 各分支的学习顺序
+- 同一概念在不同书中的差异
+- 哪些内容适合研究，哪些内容只宜当历史材料看
+
+不要默认输出为：
+- 只报结论、不讲推演依据的算命结果
+- 包治百病的说法
+- 符咒实操指令
+- 保证应验的预测
+- 带恐吓意味的结论
+
+## 适合产出的内容
+
+触发本技能时，优先产出以下几类结果：
+
+1. **阅读路径**
+   - 零基础 → 入门 → 进阶 → 专门方向
+   - 每一步先读什么、后读什么
+   - 每本书解决什么问题
+   - 读之前需要补什么基础
+
+2. **体系地图**
+   - 按基础哲学 / 命理 / 风水 / 占卜 / 丹道符箓 / 星占 / 五行理论分类
+   - 标出源头文本、代表文本、汇编文本
+   - 说明流派之间的继承与分化
+
+3. **单书导读**
+   每本书尽量给出：
+   - 它是什么
+   - 它的历史位置
+   - 核心讲什么
+   - 阅读难点在哪
+   - 适合谁读
+   - 最适合放在第几阶段读
+
+4. **对比表格**
+   对比维度优先用：
+   - 领域
+   - 所属时代/归属传统
+   - 偏理论还是偏实务
+   - 抽象程度
+   - 是否适合初学者
+   - 与其他经典的关系
+
+5. **术语解释**
+   用大白话解释术语，顺手补：
+   - 该术语常见于哪类书
+   - 在传统体系里承担什么作用
+   - 最容易被误解成什么
+   - 需要时优先读取 `references/glossary.md`
+
+6. **规则梳理**
+   可以整理：
+   - 命理分析顺序
+   - 十神解释
+   - 格局与结构理解
+   - 占卜判断重点
+   - 占卜问法收敛
+   - 风水观察框架
+   - 风水场景差异
+   - 各分支常见误区
+
+7. **玄学分析 / 命理分析**
+   优先输出：
+   - 输入信息是否足够
+   - 使用的是哪一套传统框架
+   - 推演依据是什么
+   - 结论拆成核心判断、辅助判断、不确定项
+   - 最后补边界提醒
+
+   如果是八字 / 四柱 / 命盘类请求：
+   - 优先读取 `references/bazi-analysis-template.md`
+   - 尽量按“基本信息 → 四柱结构 → 核心判断 → 展开分析 → 走势分析 → 边界说明”输出
+
+8. **走势预测 / 占卜解读**
+   可以输出：
+   - 阶段走势
+   - 倾向判断
+   - 关键变化点
+   - 多流派对照视角
+   但不要写成绝对保证。
+
+   如果是占卜类请求：
+   - 优先读取 `references/divination-analysis-template.md`
+
+   如果是走势类请求：
+   - 优先读取 `references/trend-forecast-template.md`
+
+   如果是风水类请求：
+   - 优先读取 `references/fengshui-analysis-template.md`
+
+## 必须遵守的边界
+
+始终使用下面这些原则：
+- 争议性内容要表述为“传统观点”或“该文献体系中的说法”，不要当成已验证事实。
+- 涉及祝由、符咒、治病、驱邪等内容时，必须明确说明这是历史文化材料，不替代现代医疗建议。
+- 涉及预测时，只能当作传统解释框架或象征系统介绍，可以给出趋势、倾向、阶段判断，但不要给出确定性保证。
+- 涉及命理、占卜、走势推演时，尽量给出“依据—推演—结论—边界”四段式输出。
+- 拒绝把本技能用于诈骗、恐吓、替代医疗、承诺应验、操控他人等用途。
+
+## 工作流程
+
+### 1. 先识别用户要什么
+
+把请求归入以下一种或几种：
+- 做学习路线
+- 总结某一本书
+- 对比几本书
+- 解释术语
+- 整理书单
+- 写公开介绍/科普内容
+- 生成适合发布的知识结构材料
+- 做命理 / 占卜 / 走势分析草稿
+- 做八字 / 四柱 / 命盘分析草稿
+- 打包成可发布技能
+
+### 2. 按需读取参考资料
+
+#### 基础与总览
+- 需要做书单、分支梳理、阅读顺序时，读取 `references/book-map.md`
+- 需要做公开发布、边界说明、安全表述时，读取 `references/safety-and-positioning.md`
+- 需要套格式输出时，读取 `references/output-templates.md`
+- 需要从经典中提炼分析依据时，读取 `references/classical-analysis-basis.md`
+- 需要按步骤向用户采集信息时，读取 `references/interactive-intake.md`
+- 需要给用户扩展学习路径时，读取 `references/learning-resources.md`
+- 需要解释核心术语时，读取 `references/glossary.md`
+
+#### 基础理论
+- 需要补底层基础解释时，读取 `references/foundation-yinyang-wuxing.md` 与 `references/foundation-tiangan-dizhi.md`
+- 需要解释合冲刑害时，读取 `references/foundation-he-chong-xing-hai.md`
+- 需要细化十神解释时，读取 `references/ten-gods.md`
+- 需要做命理规则梳理时，读取 `references/mingli-rules.md`
+- 需要解释格局与结构时，读取 `references/patterns-and-structures.md`
+
+#### 八字与命理
+- 需要做八字 / 四柱 / 命盘分析时，读取 `references/bazi-analysis-template.md`
+- 需要做事业分析时，读取 `references/bazi-career-analysis.md`
+- 需要做财运分析时，读取 `references/bazi-wealth-analysis.md`
+- 需要做感情分析时，读取 `references/bazi-relationship-analysis.md`
+- 需要做健康倾向分析时，读取 `references/bazi-health-analysis.md`
+- 需要做学业分析时，读取 `references/bazi-study-analysis.md`
+- 需要做大运流年分析时，读取 `references/bazi-dayun-liunian.md`
+- 需要做亲子关系分析时，读取 `references/bazi-parenting-analysis.md`
+- 需要做婚姻分析时，读取 `references/bazi-marriage-analysis.md`
+- 需要做性格倾向分析时，读取 `references/bazi-personality-analysis.md`
+- 需要做用神分析时，读取 `references/bazi-yongshen-analysis.md`
+- 需要做格局分析时，读取 `references/bazi-geju-analysis.md`
+- 需要做十神组合分析时，读取 `references/bazi-shishen-combination.md`
+- 需要做家庭关系分析时，读取 `references/bazi-family-analysis.md`
+
+#### 占卜
+- 需要做占卜解读时，读取 `references/divination-analysis-template.md`
+- 需要做占卜规则梳理时，读取 `references/divination-rules.md`
+- 需要引导用户把占卜问题问清楚时，读取 `references/divination-question-guide.md`
+- 需要按场景展开占卜分析时，读取 `references/divination-scenarios.md`
+- 需要做感情类占卜分析时，读取 `references/divination-relationship-analysis.md`
+- 需要做事业类占卜分析时，读取 `references/divination-career-analysis.md`
+- 需要做决策类占卜分析时，读取 `references/divination-decision-analysis.md`
+- 需要做是否类占卜分析时，读取 `references/divination-yes-no-analysis.md`
+- 需要分析第三方因素时，读取 `references/divination-third-party-analysis.md`
+- 需要做复合与和解分析时，读取 `references/divination-reconciliation-analysis.md`
+- 需要细化占卜时间点判断时，读取 `references/divination-timing-analysis.md`
+- 需要分析占卜阻力点时，读取 `references/divination-obstacle-analysis.md`
+
+#### 走势
+- 需要做走势预测时，读取 `references/trend-forecast-template.md`
+- 需要做走势场景化分析时，读取 `references/trend-scenarios.md`
+- 需要做事业走势分析时，读取 `references/trend-career.md`
+- 需要做感情走势分析时，读取 `references/trend-relationship.md`
+- 需要做财运走势分析时，读取 `references/trend-wealth.md`
+- 需要做项目走势分析时，读取 `references/trend-project.md`
+- 需要做学业走势分析时，读取 `references/trend-study.md`
+
+#### 风水
+- 需要做风水分析时，读取 `references/fengshui-analysis-template.md`
+- 需要做风水规则梳理时，读取 `references/fengshui-rules.md`
+- 需要按场景展开风水分析时，读取 `references/fengshui-scenarios.md`
+- 需要按空间细分风水分析时，读取 `references/fengshui-room-guide.md`
+- 需要做办公室风水分析时，读取 `references/fengshui-office-analysis.md`
+- 需要做店铺风水分析时，读取 `references/fengshui-shop-analysis.md`
+- 需要做住宅风水分析时，读取 `references/fengshui-house-analysis.md`
+- 需要做卧室风水分析时，读取 `references/fengshui-bedroom-analysis.md`
+- 需要做厨房风水分析时，读取 `references/fengshui-kitchen-analysis.md`
+
+#### 示例
+- 需要参考成熟输出写法时，读取 `references/analysis-examples.md`、`references/examples-bazi-advanced.md`、`references/examples-divination-advanced.md` 与 `references/examples-fengshui-advanced.md`
+
+没必要时，不要一股脑全读。
+
+### 3. 输出时保持“结构化 + 去玄乎”
+
+优先采用这种结构：
+- 先给结论
+- 再分组解释
+- 再给阅读顺序或对比表
+- 必要时补边界说明
+
+少讲空泛神秘感，多讲体系关系、阅读价值和概念位置。
+
+### 4. 分析类问题优先回到经典依据
+
+做命理、占卜、走势类问题时，不要只给泛化回答。
+优先：
+1. 读取 `references/classical-analysis-basis.md`
+2. 判断这次更接近哪条脉络（命理 / 占卜 / 走势 / 风水）
+3. 用用户给你的书单体系做“依据层”
+4. 再结合模板组织成现代中文输出
+
+也就是说，回答要尽量体现：
+- 依据来自哪些经典
+- 是哪一派思路
+- 哪些是共识性较强的判断
+- 哪些只是延伸性解释
+
+### 5. 学习导航也要成为能力的一部分
+
+如果用户不是只想要结论，而是想继续学习、查资料、研究原典：
+1. 读取 `references/learning-resources.md`
+2. 给出下一步书目或资料入口
+3. 区分“入门材料”“进阶材料”“查原文材料”
+
+### 6. 示例库要参与约束输出质量
+
+如果你准备输出完整分析：
+1. 读取相关模板
+2. 必要时再读取 `references/analysis-examples.md`
+3. 参考示例的层次、语气和展开方式
+4. 不要照抄示例，要根据用户输入重写成新的分析
+
+## 适合这批书的默认分组
+
+- **基础哲学**：周易、皇极经世、黄帝阴符经、五行大义
+- **命理**：渊海子平、三命通会、子平真诠、滴天髓
+- **风水**：葬书、地理人子须知、青囊奥语、撼龙经
+- **占卜**：梅花易数、增删卜易
+- **丹道/符箓/法教文献**：万法归宗、辰州符咒大全、祝由十三科
+- **星占补充**：星学大成
+
+## 推荐默认阅读顺序
+
+对大多数普通用户，默认建议：
+1. 先补《周易》或《五行大义》的概念底座
+2. 只选一个分支先深入（命理 / 风水 / 占卜）
+3. 读完入门书再碰汇编型、压缩型经典
+4. 丹道符箓类优先按历史文化研究来处理，不建议一上来当实操手册
+
+## 分析类输出默认格式
+
+当用户明确要求做玄学分析、命理分析、算命、走势判断时，优先按下面格式输出：
+
+1. **输入信息**
+   - 用户给了什么
+   - 还缺什么
+
+2. **所用体系**
+   - 例如：子平命理 / 四柱八字 / 梅花易数 / 六爻思路 / 风水形势框架
+
+3. **推演依据**
+   - 哪几个关键点决定判断
+   - 哪些是强信号，哪些只是辅助信号
+
+4. **分析结论**
+   - 核心判断
+   - 辅助判断
+   - 不确定项
+
+5. **边界提醒**
+   - 这是传统术数视角下的解读，仅供研究、娱乐与个人参考，不构成医疗、法律、投资等现实建议
+
+## 八字 / 四柱类请求的默认处理
+
+当用户说“算八字”“看八字”“批八字”“排八字”“看四柱”“看命盘”“排盘”时：
+
+1. 先判断信息是否足够
+2. 不足时优先读取 `references/interactive-intake.md` 并索要：出生日期、出生时间、性别、出生地、想重点看的方向
+3. 信息足够后，先读取 `references/classical-analysis-basis.md`，再按八字分析模板输出
+4. 避免只扔一句好坏判断，尽量解释依据和结构
+
+## 占卜类请求的默认处理
+
+当用户说“占卜”“起卦”“看卦”“梅花易数”“六爻”“这个事能不能成”时：
+
+1. 先确认问题是否具体
+2. 不足时优先读取 `references/interactive-intake.md` 并索要：问题、时间、背景、重点想看的方向
+3. 先读取 `references/classical-analysis-basis.md`，再按占卜分析模板输出
+4. 重点讲结果倾向、阻力、变化点，不直接神断式下结论
+
+## 走势类请求的默认处理
+
+当用户说“走势预测”“未来会怎么样”“后面怎么走”“明年运势”“未来几个月走势”时：
+
+1. 先确认对象、时间范围、重点方向
+2. 信息不足时先读取 `references/interactive-intake.md` 并补信息
+3. 先读取 `references/classical-analysis-basis.md`，再按走势预测模板输出
+4. 把走势拆成阶段来讲，尽量区分当前阶段、过渡阶段、后续阶段
+
+## 风水类请求的默认处理
+
+当用户说“看风水”“风水分析”“家居风水”“办公室风水”“阳宅风水”“阴宅风水”时：
+
+1. 先确认分析对象、朝向、格局与重点问题
+2. 信息不足时优先补图片、平面图、户型描述或空间关系描述
+3. 先读取 `references/classical-analysis-basis.md`，再按风水分析模板输出
+4. 重点讲整体格局、气口、动线、空间关系与可调整点，不只盯单一点位
+
+## 公开开源时的建议定位
+
+最适合对外发布的名字和方向，不是“算命神器”，而是：
+- 术数经典学习助手
+- 玄学分析助手
+- 传统术数知识整理与解读助手
+- 术数书单与阅读路径规划助手
+- 命理 / 八字 / 四柱 / 占卜 / 走势分析辅助助手
+
+## 输出风格
+
+用户用中文，就用自然中文回答。
+少神叨，少悬浮，尽量清楚、直接、分层。

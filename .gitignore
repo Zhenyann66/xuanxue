@@ -1,0 +1,16 @@
+# 上游资料 clone，不随本仓库分发（见 THIRD-PARTY-NOTICES.md）
+_sources/
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 临时文件
+*.tmp
+~$*
